@@ -1,0 +1,103 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: rgb(172, 221, 228);
+    color: rgb(117, 116, 116);
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 100vw;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+header {
+    width: 95%;
+    max-width: 788px;
+    display: flex;
+    justify-content: flex-end;
+    padding: 12px;
+    margin-top: 15px;
+}
+
+.share-button {
+    width: 40px;
+    height: 40px;
+    border-radius: 20px;
+    background-color: coral;
+}
+
+.share-button svg {
+    margin-top: 9px;
+    margin-left: 11px;
+
+}
+
+
+.container {
+    width: 91%;
+    max-width: 680px;
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(172, 221, 228);
+    font-size: larger;
+}
+
+.tile-share-button {
+    margin: 8px;
+    width: 40px;
+    height: 40px;
+    border-radius: 20px;
+    background-color: rgb(172, 221, 228);
+}
+
+.tile {
+    width: 100%;
+    background-color: coral;
+    margin: 7px;
+    border-radius: 17px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.tile:hover {
+    transition: cubic-bezier(1, 0, 0, 1) 0.8ms;
+    transform: scale(1.02);
+
+}
+
+.tile-share-button svg {
+    margin-left: 10px;
+    margin-top: 8px;
+}
+
+h1 {
+    font-size: 20px;
+    margin-bottom: 30px;
+}
+
+.image-container {
+    height: 200px;
+    width: 200px;
+    border-radius: 48px;
+    overflow: hidden;
+}
+
+.image-container img {
+    height: 200px;
+    width: 200px;
+
+}
+
+.icon {
+    width: 40px;
+    height: 40px;
+    margin-left: 20px;
+    margin-top: 20px;
+
+}
